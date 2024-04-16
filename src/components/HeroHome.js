@@ -14,7 +14,7 @@ const HeroImg = () => {
         <div className='content'>
             <p>HI, I AM ANANYA PAL.</p>
             <h1>Software Developer.</h1>
-            <div>
+            <div style={{display: 'flex'}}>
                 <Link to='/project' className='btn'>Projects</Link>
                 <Link to='/contact' className='btn btn-light'>Contacts</Link>
             </div>
